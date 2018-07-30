@@ -1,17 +1,24 @@
-<ion-header>
+<ion-header align="center">
   <ion-navbar>
-    <ion-title>
-      Contact
+    <ion-title >
+      Pokedex
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <ion-list no-lines>
+  <button ion-item color ="light" (click)="OpenSnorlaxPage()">
+    Snorlax
+  </button>
+  <button ion-item color ="dark" (click)="OpenPikachuPage()">
+    Pikachu
+  </button>
+  <button ion-item color ="light" (click)="OpenBulbasaurPage()">
+    Bulbasaur
+  </button>
+  <button ion-item color ="dark" (click)="OpenCharmenderPage()">
+    Charmender
+  </button>
+</ion-list>
 </ion-content>
